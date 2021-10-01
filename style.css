@@ -1,0 +1,334 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* Первая часть */
+.first_page {
+    background: url('first_page.png');
+    opacity: 80%;
+    background-color: #015C78;
+    height: 800px;
+}
+
+header {
+    width: 100%;
+    margin-left: 12%;
+    margin-top: 67px;
+    float: left;
+}
+
+.logo {
+    width: 500px;
+    float: left;
+}
+
+.logo span {
+    font-size: 4em;
+    color: #fff;
+}
+
+.lang {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.lang_btn {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.lang_btn:hover {
+    background-color: #fff;
+    color: rgb(59, 6, 128);
+}
+
+.top {
+    margin-left: 12%;
+    padding-top: 12%;
+    width: 72%;
+    display: flex;
+}
+
+.top_left {
+    display: grid;
+    width: 40%;
+    height: 100%;
+}
+
+.top_right {
+    width: 60%;
+}
+
+.top_info {
+    text-decoration: none;
+    color: #fff;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 12px;
+    padding-left: 0;
+}
+
+.logo1 {
+    width: 80%;
+}
+.textp {
+    padding-left: 5%;
+    width: 97%;
+    text-align: justify;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 5%;
+}
+
+.top_btn {
+    border: 1px solid rgb(241, 143, 14);
+    text-decoration: none;
+    padding: 2%;
+    height: 20%;
+    margin-left: 5%;
+    background-color: #DBA682;
+    color: #fff;
+}
+
+/* Часть конференция */
+.main {
+    background-color:#fff;
+    height: 650px;
+    margin-left: 12%;
+    margin-right: 17%;
+}
+
+.mainp1 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: justify;
+    color: #001122;
+    line-height: 20px;
+    margin-top: 0px;
+}
+
+.mainp2 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: justify;
+    color: #001122;
+    line-height: 20px;
+}
+
+.main_img {
+    padding: 0;
+    width: 49%;
+    float: right;
+    padding-left: 3%;
+}
+
+/* Часть О конференции */
+.overview {
+    background: linear-gradient(0deg, #001122 0%, #015C78 0.01%, #012A38 100%);
+}
+
+.overview_inner {
+    margin-left: 12%;
+    margin-right: 17%;
+    padding-top: 5%;
+}
+
+.overview_h1 {
+    padding-top: 5%;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 23px;
+    display: contents;
+}
+
+.overview_btn {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: right;
+    border: 1px solid #DBA682;
+    box-sizing: border-box;
+    color: #DBA682;
+    text-decoration: none;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+}
+.overview_btn:hover {
+    background-color: #DBA682;
+    color: #fff;
+}
+
+.overview_inner {
+    height: 1200px;
+}
+
+.white_overview {
+    margin-top: 80px;
+    background-color: #fff;
+    height: 80%;
+}
+
+.data_table {
+    margin-left: 30%;
+}
+
+.hr_data {
+    width: 40%;
+}
+
+.data_info {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #D8D8EB;
+    padding: 16px;
+}
+
+.data_info_gold {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #DBA682;
+    padding: 20px;
+}
+
+.overview_conf {
+    border: 1px solid #E8E8F3;
+    width: 900px;
+    margin-left: 7%;
+    margin-bottom: 4%;
+}
+
+.overview_h3 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.overviewp {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: justify;
+    color: #001122;
+    line-height: 20px;
+    margin-left: 30px;
+    width: 93%;
+}
+
+.overviewPtime {
+    margin-left: 30px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #DBA682;
+}
+
+.overviewPplace {
+    margin-left: 30px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #001122;
+}
+
+.overview_conf_btn {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border: 1px solid #DBA682;
+    box-sizing: border-box;
+    color: #fff;
+    margin-left: 45%;
+    background-color: #DBA682;
+    text-decoration: none;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.overview_conf_btn:hover {
+    background-color: #fff;
+    color: #DBA682;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer{
+    padding-top: 7%;
+    margin-left: 12%;
+    margin-right: 17%;
+   
+}
+
+
+
+.footer_main {
+    background: linear-gradient(0deg, #001122 0%, #015C78 0.01%, #012A38 100%);
+    height: 800px;;
+}
+
+.footer_h1 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 85px;
+}
+
+.img {
+    padding-right: 30px;
+}
